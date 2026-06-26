@@ -23,7 +23,7 @@
     <!-- Hardware -->
     <project path="hardware/mediatek"
         name="android_hardware_mediatek"
-        remote="org-github" revision="lineage-23.2" />
+        remote="dd" revision="lineage-23.2" />
 
     <!-- Proprietary Vendor -->
     <project path="vendor/nothing/Aerodactyl"
