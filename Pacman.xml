@@ -6,6 +6,7 @@
     <remote name="pong-dev" fetch="https://github.com/Pong-Development" />
     <remote name="org-github" fetch="https://github.com/Nothing-2A" />
     <remote name="org-gitlab" fetch="https://gitlab.com/nothing-2a" />
+    <remote name="dd-gitlab" fetch="https://gitlab.com/shravanrajapure1" />
 
     <!-- Device -->
     <project path="device/nothing/Aerodactyl" name="android_device_nothing_Aerodactyl"
@@ -28,8 +29,8 @@
 
     <!-- Proprietary Vendor -->
     <project path="vendor/nothing/Aerodactyl"
-        name="proprietary_vendor_nothing_Aerodactyl"
-        remote="org-gitlab" revision="lineage-23.2" />
+        name="vendor_nothing_Aerodactyl"
+        remote="dd-gitlab" revision="lineage-23.2" />
 
     <project path="vendor/nothing/Pacman"
         name="proprietary_vendor_nothing_Pacman"
