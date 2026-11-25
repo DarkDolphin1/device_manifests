@@ -7,15 +7,20 @@
     <remote name="pong-dev" fetch="https://github.com/Pong-Development" />
     <remote name="org-github" fetch="https://github.com/Nothing-2A" />
     <remote name="org-gitlab" fetch="https://gitlab.com/nothing-2a" />
+    <remote name="oe" fetch="https://github.com/over-engineer-org" />
+    <remote name="nulldb" fetch="https://github.com/NullDebris" />
+    <remote name="nyx" fetch="https://github.com/nyxalune" />
+    <!-- <remote name="nulldb" fetch="https://github.com/NullDebris" /> -->
+
 
     <!-- Device -->
-    <project path="device/nothing/Aerodactyl" name="device_nothing_Aerodactyl"
-        remote="ax" revision="axion-qpr2" />
+    <project path="device/nothing/Aerodactyl" name="android_device_nothing_Aerodactyl"
+        remote="dd" revision="evo-dolby" />
 
     <!-- Prebuilt Kernel -->
     <project path="device/nothing/Aerodactyl-kernel"
         name="android_device_nothing_Aerodactyl-kernel"
-        remote="ax" revision="lineage-23.2" />
+        remote="oe" revision="bloom" />
 
     <!-- Sepolicy -->
     <project path="device/mediatek/sepolicy_vndr"
@@ -23,6 +28,14 @@
         remote="lineage" revision="lineage-23.2" />
 
     <!-- Hardware -->
+    <project path="hardware/dolby"
+        name="android_hardware_dolby"
+        remote="nyx" revision="sony" />
+
+    <project path="packages/apps/DolbyUI"
+        name="packages_apps_DolbyUI"
+        remote="nyx" revision="a" />
+
     <project path="hardware/mediatek"
         name="android_hardware_mediatek"
         remote="lineage" revision="lineage-23.2" />
@@ -43,7 +56,7 @@
     <!-- Glyph -->
     <project path="packages/apps/ParanoidGlyph"
         name="packages_apps_ParanoidGlyph"
-        remote="dd" revision="lineage-23.1" />
+        remote="nulldb" revision="lineage-23.1" />
 
     <project path="packages/apps/GlyphAdapter"
         name="packages_apps_GlyphAdapter"
